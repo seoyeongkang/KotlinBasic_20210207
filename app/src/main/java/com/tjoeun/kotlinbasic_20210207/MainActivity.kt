@@ -11,13 +11,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//      전송 버튼이 눌렸을때 할 일을 지정
         sendBtn.setOnClickListener {
 
-//            Ctrl + ㅣ로 이줄을 주석으로.
-//            sendBtn이 눌리면 싱행해준 코드
+//            Ctrl +l 로 이줄을 주석으로.
+//            sendBtn이 눌리면 실행해준 코드
 
             Log.d("메인 화면" , "전송버튼이 눌림")
 
+        }
+
+//      로그 버튼이 눌리면 할일을 별도로 지정
+        logBtn.setOnClickListener {
+            Log.d("메인화면", "로그버튼 눌림")
         }
 
     }

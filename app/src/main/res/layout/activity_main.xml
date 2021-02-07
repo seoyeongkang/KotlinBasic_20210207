@@ -19,9 +19,16 @@
         android:layout_height="wrap_content"
         android:text="입력 내용 전달하기" />
 
+    <Button
+        android:id="@+id/logBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그 찍어보기" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:text="입력한 내용이 반영될 자리" />
 
 
