@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 //      로그 버튼이 눌리면 할일을 별도로 지정
         logBtn.setOnClickListener {
             Log.d("메인화면", "로그버튼 눌림")
+            Log.e("메인화면", "실행되면 안되는데 실행되는지 체크")
         }
 
     }
